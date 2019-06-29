@@ -1,0 +1,2 @@
+take the folders of previous patch switcher and keep it in same directory with the patchswitcher_BFME2.exe
+make another folder name it as 109 and paste all the files except the factionfloor.big and directories of 1.09 inside it and lastly paste the factionfloor file inside the game directory

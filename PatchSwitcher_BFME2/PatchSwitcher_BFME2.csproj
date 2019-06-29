@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FF39E4FC-028D-4E54-886D-151D21D50259}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PatchSwitcher_BFME2</RootNamespace>
+    <AssemblyName>BFME2 PatchSwitcher</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ico.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Finder.cs" />
+    <Compile Include="Fixer.cs" />
+    <Compile Include="PatchSwitcher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatchSwitcher.Designer.cs">
+      <DependentUpon>PatchSwitcher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistryFunctions.cs" />
+    <EmbeddedResource Include="PatchSwitcher.resx">
+      <DependentUpon>PatchSwitcher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p106.gif" />
+    <None Include="Resources\p100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resolution21.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cv100.gif" />
+    <None Include="Resources\cv100.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cv106.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\min_icon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\header.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cv108.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p108.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\108.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cv108.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zcompositionreference.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\100button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\100buttonclick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\100buttonhover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\106button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\106buttonclick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\106buttonhover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\109button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\109buttonclick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\109buttonhover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseimage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\currentversion100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\currentversion106.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\currentversion109.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enablefactionfloors.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enablefactionfloorsbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enablefactionfloorsx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enablefactionfloorsxgrey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enablefactionfloorsxgrey2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fixmyresbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fixmyresbuttonclick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fixmyresbuttonhover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gamereplaysbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exithover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimizehover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebookbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icosmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ico.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

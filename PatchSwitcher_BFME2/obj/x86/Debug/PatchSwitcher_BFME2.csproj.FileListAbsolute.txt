@@ -1,0 +1,9 @@
+c:\users\ozgur\documents\visual studio 2010\Projects\PatchSwitcher_BFME2\PatchSwitcher_BFME2\bin\Debug\PatchSwitcher_BFME2.exe
+c:\users\ozgur\documents\visual studio 2010\Projects\PatchSwitcher_BFME2\PatchSwitcher_BFME2\bin\Debug\PatchSwitcher_BFME2.pdb
+c:\users\ozgur\documents\visual studio 2010\Projects\PatchSwitcher_BFME2\PatchSwitcher_BFME2\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\ozgur\documents\visual studio 2010\Projects\PatchSwitcher_BFME2\PatchSwitcher_BFME2\obj\x86\Debug\PatchSwitcher_BFME2.PatchSwitcher.resources
+c:\users\ozgur\documents\visual studio 2010\Projects\PatchSwitcher_BFME2\PatchSwitcher_BFME2\obj\x86\Debug\PatchSwitcher_BFME2.Properties.Resources.resources
+c:\users\ozgur\documents\visual studio 2010\Projects\PatchSwitcher_BFME2\PatchSwitcher_BFME2\obj\x86\Debug\ResGen.read.1.tlog
+c:\users\ozgur\documents\visual studio 2010\Projects\PatchSwitcher_BFME2\PatchSwitcher_BFME2\obj\x86\Debug\ResGen.write.1.tlog
+c:\users\ozgur\documents\visual studio 2010\Projects\PatchSwitcher_BFME2\PatchSwitcher_BFME2\obj\x86\Debug\PatchSwitcher_BFME2.exe
+c:\users\ozgur\documents\visual studio 2010\Projects\PatchSwitcher_BFME2\PatchSwitcher_BFME2\obj\x86\Debug\PatchSwitcher_BFME2.pdb
